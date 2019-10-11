@@ -4,27 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- <link rel="stylesheet" href="./Assets/CSS/bootstrap.min.css"> -->
-    <link rel="stylesheet" href="./Assets/CSS/style.css">
+    <link rel="stylesheet" href="./Assets/CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./Assets/CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
     <title>Login Page</title>
 </head>
 <body>
-    <form class="">
-        <h4 class="centered">LOG IN</h4>
-        <div class="form-group input-group">
-            <label class="form-control-label" for="email">Email Address</label>
-            <input class="form-control name="email" id="email" placeholder="Enter mail" type="text"> 
+    <div class="container">
+        <div class="card text-white bg-black w-50 mx-auto mt-90 p-3 box-shadow">
+            <div class="card-body">
+                <form class="">
+                    <h4 class="mt-5">LOGIN</h4>
+                    <hr>
+                    <div class="form-group w-100">
+                        <i class="fas fa-user fa-2x"></i>
+                        <input class="form-control no-border red-bottom" type="text" id="email" placeholder="name@example.com" name="email">
+                    </div>
+                    <div class="form-group w-100">
+                        <i class="fas fa-lock fa-2x"></i>
+                        <input class="form-control no-border red-bottom" id="password" placeholder="Enter password" type="password">
+                    </div>
+                    <button class="btn bg-black mt-4 w-100 box-shadow color mb-5" type="submit">Sign In</button>
+                    <a class="text-white" href="#">Forgot password?</a>
+                </form>
+            </div>
         </div>
-        <div class="form-group input-group w-40">
-            <label class="form-control-label">Password</label>
-            <input class="form-control " name="password" id="password" placeholder="password"> 
-        </div>
-        <div class="input group">
-            <button class="btn ">Submit</button>
-        </div>
-        
-
-    </form>
-    
 </body>
 </html>

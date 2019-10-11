@@ -1,0 +1,56 @@
+@import url('./display.css');
+@import url('./space.css');
+
+* {
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+}
+
+body {
+    background: url(../Images/807540.png);
+    /* background-position: center; */
+}
+
+.centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.box-shadow {
+    box-shadow: 2px 2px 17px 7px red;
+}
+
+form {
+    padding: 50px 50px;
+    /* margin: 10vh auto 0 auto; */
+    /* box-shadow: 0 0 1px 2px red; */
+}
+
+
+h4 {
+    font-size: 40px;
+    border-bottom: 2px solid red;
+    display: inline-block;
+}
+
+.color {
+    color: white;
+}
+
+.no-border {
+    border: 0;
+    box-shadow: none;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.red-bottom {
+    border-bottom: 3px solid red;
+}
+
